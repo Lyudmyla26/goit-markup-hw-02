@@ -1,0 +1,63 @@
+:root {
+	--primary-text-color: #434455;
+	--logo-color: #2e2f42;
+	--logo-text: #4d5ae5;
+	--accent-color: #404bbf;
+	--adres-color: #434455;
+	--section-title: #ffffff;
+	--link: #2e2f42;
+	--descriptive-title: #2e2f42;
+	--photo-title: #2e2f42;
+	--text: #434455;
+	--button-fon-normal: #4d5ae5;
+}
+.page {
+	background: #ffffff;
+	color: var(--primary-text-color);
+}
+/* Шапка профіля */
+.logo {
+	color: var(--logo-color);
+}
+.logo-text {
+	color: var(--logo-text);
+}
+/* забирає кружочки з ліва */
+.list {
+	list-style: none;
+}
+.site-nav {
+	color: var(--link);
+}
+.site-nav .link:active,
+.link:focus {
+	color: var(--accent-color);
+}
+.adress {
+	color: var(--adres-color);
+}
+.adress .link:active,
+.link:focus {
+	color: var(--accent-color);
+}
+/* /Шапка профіля*/
+
+.secton-title {
+	color: var(--section-title);
+}
+/* /Банер */
+/* Колонки */
+.descriptive-title {
+	color: var(--descriptive-title);
+}
+/* /Колонки */
+/* фото */
+.photo-title {
+	color: var(--photo-title);
+}
+/* /фото */
+/* Our Team */
+.text {
+	color: var(--text);
+}
+/* /Our Team */
