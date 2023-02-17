@@ -1,6 +1,9 @@
 body {
 	font-family: "Roboto", sans-serif;
 }
+.item {
+	list-style: none;
+}
 .header {
 }
 .header-navigation {
@@ -17,7 +20,6 @@ body {
 .header-list {
 }
 .header-item {
-	list-style: none;
 }
 .header-link {
 	font-weight: 500;
@@ -27,7 +29,6 @@ body {
 	text-decoration: none;
 }
 .header-adress {
-	list-style: none;
 }
 .header-emel {
 	font-weight: 400;
@@ -67,7 +68,6 @@ body {
 .strategy-list {
 }
 .strategy-item {
-	list-style: none;
 }
 .strategy-title {
 	font-weight: 500;
@@ -93,7 +93,6 @@ body {
 .work-list {
 }
 .work-item {
-	list-style: none;
 }
 .work-img {
 }
@@ -109,7 +108,6 @@ body {
 .team-list {
 }
 .team-item {
-	list-style: none;
 }
 .team-img {
 }
@@ -138,6 +136,43 @@ body {
 	text-decoration: none;
 }
 .footer-description {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+}
+.filter {
+}
+.filter-list {
+}
+.filter-item {
+	list-style: none;
+}
+.filter-btn {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.04em;
+}
+.services {
+}
+.service-list {
+}
+.services-item {
+	list-style: none;
+}
+.services-link {
+	text-decoration: none;
+}
+.services-img {
+}
+.services-title {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+}
+.services-description {
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.5;

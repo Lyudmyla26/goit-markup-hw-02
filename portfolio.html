@@ -6,111 +6,164 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Portfolio</title>
 		<link rel="stylesheet" href="./css/styles.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap"
+			rel="stylesheet"
+		/>
 	</head>
 	<body>
 		<!-- Шапка профіля -->
-		<header>
-			<nav>
-				<a href="./index.html"> WebStudio</a>
+		<header class="header">
+			<nav class="header-navigation">
+				<a href="./index.html" class="header-logo"> WebStudio</a>
 				<ul>
-					<li><a href="./index.html">Studio</a></li>
-					<li><a href="">Portfolio</a></li>
-					<li><a href="">Contacts</a></li>
+					<li class="header-item item"><a href="./index.html" class="header-link">Studio</a></li>
+					<li class="header-item item"><a href="" class="header-link">Portfolio</a></li>
+					<li class="header-item item"><a href="" class="header-link">Contacts</a></li>
 				</ul>
 			</nav>
 			<address>
-				<ul>
-					<li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-					<li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+				<ul class="header-adress">
+					<li class="header-item item"
+						><a href="mailto:info@devstudio.com" class="header-emel">info@devstudio.com</a></li
+					>
+					<li class="header-item item"><a href="tel:+110001111111" class="header-tel">+11 000 111-11-11</a></li>
 				</ul>
 			</address>
 		</header>
 		<!--/ Шапка профіля -->
 		<!-- Фільтр -->
-		<section>
+		<section class="filter">
 			<h2 hidden>filter</h2>
-			<ul>
-				<li><button type="button">All</button></li>
-				<li><button type="button">Web Site</button></li>
-				<li><button type="button">App</button></li>
-				<li><button type="button">Design</button></li>
-				<li><button type="button">Marketing</button></li>
+			<ul class="filter-list">
+				<li class="filter-item"><button type="button" class="filter-btn">All</button></li>
+				<li class="filter-item"><button type="button" class="filter-btn">Web Site</button></li>
+				<li class="filter-item"><button type="button" class="filter-btn">App</button></li>
+				<li class="filter-item"><button type="button" class="filter-btn">Design</button></li>
+				<li class="filter-item"><button type="button" class="filter-btn">Marketing</button></li>
 			</ul>
 		</section>
 		<!-- /Фільтр -->
 		<!-- Картинки 9 -->
-		<section>
-			<ul>
-				<li>
-					<a href=""
-						><img src="./images/portfolio_section_1.jpg" alt="Banking App Interface Concept" width="360" height="300" />
-						<h2>Banking App Interface Concept</h2>
-						<p>App</p>
+		<section class="services">
+			<h2 hidden>Services</h2>
+			<ul class="service-list">
+				<li class="services-item">
+					<a href="" class="services-link">
+						<img
+							src="./images/portfolio_section_1.jpg"
+							alt="Banking App Interface Concept"
+							width="360"
+							height="300"
+							class="services-img"
+						/>
+						<h2 class="services-title">Banking App Interface Concept</h2>
+						<p class="services-description">App</p>
 					</a>
 				</li>
-				<li>
-					<a href=""
-						><img src="./images/portfolio_section_2.jpg" alt="Cashless Payment" width="360" height="300" />
-						<h2>Cashless Payment</h2>
-						<p>Marketing</p>
+				<li class="services-item">
+					<a href="" class="services-link">
+						<img
+							src="./images/portfolio_section_2.jpg"
+							alt="Cashless Payment"
+							width="360"
+							height="300"
+							class="services-img"
+						/>
+						<h2 class="services-title">Cashless Payment</h2>
+						<p class="services-description">Marketing</p>
 					</a>
 				</li>
-				<li>
-					<a href=""
-						><img src="./images/portfolio_section_3.jpg" alt="Meditaion App" width="360" height="300" />
-						<h2>Meditaion App</h2>
-						<p>App</p>
+				<li class="services-item">
+					<a href="" class="services-link">
+						<img
+							src="./images/portfolio_section_3.jpg"
+							alt="Meditaion App"
+							width="360"
+							height="300"
+							class="services-img"
+						/>
+						<h2 class="services-title">Meditaion App</h2>
+						<p class="services-description">App</p>
 					</a>
 				</li>
-				<li>
-					<a href=""
-						><img src="./images/portfolio_section_4.png" alt="Taxi Service" width="360" height="300" />
-						<h2>Taxi Service</h2>
-						<p>Marketing</p>
+				<li class="services-item">
+					<a href="" class="services-link">
+						<img
+							src="./images/portfolio_section_4.png"
+							alt="Taxi Service"
+							width="360"
+							height="300"
+							class="services-img"
+						/>
+						<h2 class="services-title">Taxi Service</h2>
+						<p class="services-description">Marketing</p>
 					</a>
 				</li>
-				<li>
-					<a href=""
-						><img src="./images/portfolio_section_5.jpg" alt="Screen Illustrations" width="360" height="300" />
-						<h2>Screen Illustrations</h2>
-						<p>Design</p>
+				<li class="services-item">
+					<a href="" class="services-link">
+						<img
+							src="./images/portfolio_section_5.jpg"
+							alt="Screen Illustrations"
+							width="360"
+							height="300"
+							class="services-img"
+						/>
+						<h2 class="services-title">Screen Illustrations</h2>
+						<p class="services-description">Design</p>
 					</a>
 				</li>
-				<li>
-					<a href=""
-						><img src="./images/portfolio_section_6.jpg" alt="Online Courses" width="360" height="300" />
-						<h2>Online Courses</h2>
-						<p>Marketing</p>
+				<li class="services-item">
+					<a href="" class="services-link"
+						><img
+							src="./images/portfolio_section_6.jpg"
+							alt="Online Courses"
+							width="360"
+							height="300"
+							class="services-img"
+						/>
+						<h2 class="services-title">Online Courses</h2>
+						<p class="services-description">Marketing</p>
 					</a></li
 				>
-				<li
-					><a href=""
-						><img src="./images/portfolio_section_7.jpg" alt="Instagram Stories Concept" width="360" height="300" />
-						<h2>Instagram Stories Concept</h2>
-						<p>Design</p>
+				<li class="services-item">
+					<a href="" class="services-link">
+						<img
+							src="./images/portfolio_section_7.jpg"
+							alt="Instagram Stories Concept"
+							width="360"
+							height="300"
+							class="services-img"
+						/>
+						<h2 class="services-title">Instagram Stories Concept</h2>
+						<p class="services-description">Design</p>
 					</a>
 				</li>
-				<li
-					><a href=""
-						><img src="./images/portfolio_section_8.jpg" alt="Organic Food" />
-						<h2>Organic Food</h2>
-						<p>Web Site</p>
-					</a></li
-				>
-				<li
-					><a href=""
-						><img src="./images/portfolio_section_9.jpg" alt="Fresh Coffee" />
+				<li class="services-item">
+					<a href="" class="services-link">
+						<img src="./images/portfolio_section_8.jpg" alt="Organic Food" class="services-img" />
+						<h2 class="services-title">Organic Food</h2>
+						<p class="services-description">Web Site</p>
+					</a>
+				</li>
+				<li class="services-item">
+					<a href="" class="services-link">
+						<img src="./images/portfolio_section_9.jpg" alt="Fresh Coffee" class="services-img" />
 						<h2>Fresh Coffee</h2>
-						<p>Web Site</p>
+						<p class="services-description">Web Site</p>
 					</a>
 				</li>
 			</ul>
 		</section>
 		<!--/ Картинки 9 -->
 		<!-- Футер -->
-		<footer>
-			<a href="./index.html">WebStudio</a>
-			<p> Increase the flow of customers and sales for your business with digital marketing & growth solutions. </p>
+		<footer class="footer">
+			<a href="./index.html" class="footer-logo">WebStudio</a>
+			<p class="footer-description">
+				Increase the flow of customers and sales for your business with digital marketing & growth solutions.
+			</p>
 		</footer>
 		<!-- /Футер -->
 	</body>
